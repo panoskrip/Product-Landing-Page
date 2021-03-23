@@ -14,15 +14,18 @@
     <header id="header">
 
         <div class="logo">
-            <img src="images/harmonica.png" alt="Harmonica Logo" id="header-img">
-            <h1>Original Harmonicas</h1>
+            <img src="media/harmonica.png" alt="Harmonica Logo" id="header-img">
+            <div class="name">
+                <h1>Original Harmonicas</h1>
+                <p id="since">Here since 1969</p>
+            </div>
         </div>
 
         <nav id="nav-bar">
             <ul>
-                <li><a href="#" class="nav-link">Features</a></li>
-                <li><a href="#" class="nav-link">In Action</a></li>
-                <li><a href="#" class="nav-link">Pricing</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#video" class="nav-link">In Action</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
             </ul>
         </nav>
     </header>
@@ -33,9 +36,106 @@
             <input type="email" name="email" id="email" placeholder="Enter your email adress">
             <input type="submit" id="submit" value="GET STARTED">
         </form>
-    </div>
-    <footer>
 
-    </footer>
+        <div id="features">
+            <table>
+                <tr>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-flame" width="76" height="76" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M12 12c2 -2.96 0 -7 -1 -8c0 3.038 -1.773 4.741 -3 6c-1.226 1.26 -2 3.24 -2 5a6 6 0 1 0 12 0c0 -1.532 -1.056 -3.94 -2 -5c-1.786 3 -2.791 3 -4 2z" />
+                       </svg>
+                    </td>
+                    <td>
+                        <h3>Premium Materials</h3>
+                        <p>
+                            Our harmonicas use handpicked materials which are sourced locally.<br> 
+                            This will increase the longevity of your purchase.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-check" width="65" height="65" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M9 12l2 2l4 -4" />
+                            <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+                        </svg>
+                    </td>
+                    <td>
+                        <h3>Quality Assurance</h3>
+                        <p>
+                            For every purchase you make, we will ensure there are no damages or faults <br>
+                            and we will check and test your instrument before shipping it to you. 
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rocket" width="76" height="76" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" />
+                            <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
+                            <circle cx="15" cy="9" r="1" />
+                        </svg>
+                    </td>
+                    <td>
+                        <h3>Fast shipping</h3>
+                        <p>
+                            We make sure you recieve your harmonica as soon as we have finished making it. <br>
+                            We also provide <u>free returns</u> if you are not satisfied.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="video">
+            <p id="videoDescription">Listen to a performance feauturing our <i>Premium Harmonica</i>:</p>
+            <video width="640" height="400" controls>
+                <source src="media/harmonica.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div id="pricing">
+            <div id="option">
+                <h4>Starter Harmonica</h4>
+                <p id="price">$60</p>
+                <p id="details">
+                    Lorem ipsum. <br>
+                    Lorem ipsum. <br>
+                    Lorem ipsum dolor. <br>
+                    Lorem ipsum.
+                </p>
+                <button id="selectButton">Select</button>
+            </div>
+            <div id="option">
+                <h4>Intermediate Harmonica</h4>
+                <p id="price">$110</p>
+                <p id="details">
+                    Lorem ipsum. <br>
+                    Lorem ipsum. <br>
+                    Lorem ipsum dolor. <br>
+                    Lorem ipsum.
+                </p>
+                <button id="selectButton">Select</button>
+            </div>
+            <div id="option">
+                <h4>Premium Harmonica</h4>
+                <p id="price">$300</p>
+                <p id="details">
+                    Lorem ipsum. <br>
+                    Lorem ipsum. <br>
+                    Lorem ipsum dolor. <br>
+                    Lorem ipsum.
+                </p>
+                <button id="selectButton">Select</button>
+            </div>
+        </div>
+        <footer>
+            <p>Made for educational reasons. </p>
+        </footer>
+    </div>
+
 </body>
 </html>
