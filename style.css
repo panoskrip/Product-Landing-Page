@@ -73,13 +73,13 @@ li {
     padding: 0 30px 0 50px;
 }
 
-a{
+.nav-link{
     text-decoration: none;
     color: black;
     font-size: 17px;
 }
 
-a:hover {
+.nav-link:hover {
     text-decoration: underline;
 }
 
@@ -122,6 +122,9 @@ input[type="submit"]:hover {
 td {
     padding-left: 65px;
 }
+
+#video {
+    width: 640px;}
 
 #videoDescription {
     margin: 100px 0 0 0;
@@ -184,3 +187,77 @@ h4 {
     transform: scale(1.2);
 }
 
+@media (max-width:1020px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    #since {
+        font-size: 14px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 980px) {
+    #option {
+        width: 250px;
+    }
+}
+
+@media (max-width: 820px) {
+    #pricing {
+        flex-direction: column;
+    }
+
+    #option {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
+    li {
+        padding: 12px;
+    }
+ 
+}
+
+
+@media (max-width: 650px) {
+    #video {
+        width: 90vw;
+    }
+
+    #videoDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 626px) {
+    nav {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    #description {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    table {
+        margin-right: 20px;
+    }
+}
