@@ -1,6 +1,10 @@
 :root {
-    --yellow-color: #f1c40f;
+    --yellow-color: #ff9300;
     --white-color: #eee;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 html, body {
@@ -22,7 +26,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    height: 90px;
+    height: 12vh;
     margin: 0 50px;
     justify-content: space-between;
     flex-grow: 0;
@@ -41,6 +45,8 @@ h1 {
 
 #since {
     margin: -5px 0 0 3px;
+    color: var(--yellow-color);
+    font-weight: bold;
 }
 
 h2 {
@@ -185,6 +191,17 @@ h4 {
 
 #selectButton:hover {
     transform: scale(1.2);
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
 }
 
 @media (max-width:1020px) {
